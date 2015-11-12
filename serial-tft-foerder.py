@@ -1,8 +1,13 @@
 # display parliamentwatch number of supporters on serial tft display
 # for the raspberry pi rev1 with the hobbytronics 1.8 inch lcd.
 #
+# http://www.hobbytronics.co.uk/tft-serial-display-18
+#
 # code is released under public domain using wtfpl v2.
 # written 2015 by @5chdn <schoedon@abgeordnetenwatch.de>
+#
+# https://github.com/5chdn/serial-tft-parliamentwatch/
+# https://twitter.com/5chdn
 #
 # requires python2, python2-pyserial
 # requires serialtft: https://github.com/Gadgetoid/Serial-TFT-Python
