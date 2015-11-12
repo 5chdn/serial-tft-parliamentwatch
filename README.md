@@ -17,6 +17,7 @@ display parliamentwatch number of supporters on serial tft display
 ### credits
 
 code is released under public domain using wtfpl v2.
+
 written 2015 by @5chdn <schoedon@abgeordnetenwatch.de>
 
 * https://github.com/5chdn/serial-tft-parliamentwatch/
