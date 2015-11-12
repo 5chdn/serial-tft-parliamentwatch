@@ -2,6 +2,8 @@
 
 display parliamentwatch number of supporters on serial tft display
 
+![preview](preview.png)
+
 ### requires
 
  * serial display, try http://www.hobbytronics.co.uk/tft-serial-display-18
