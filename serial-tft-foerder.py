@@ -15,7 +15,7 @@
 import sys, os
 import time, datetime
 from time import strftime, strptime
-sys.path.append(os.path.abspath("/path/to/serial-tft-python"))
+# sys.path.append(os.path.abspath("/path/to/serial-tft-python"))
 from serialtft import SerialTFT
 
 # setup the serialtft library, we dont want to clean up the lcd on exit
@@ -27,7 +27,7 @@ tft = SerialTFT("/dev/ttyAMA0", 9600, False, True)
 
 # read supporter count from file
 # kindly ask support for API access (ref ticket #AW-3028)
-count_file = "/path/to/counter"
+count_file = "./counter" # adjust /path/to/.
 modified_time = 0
 supporter_count = "Err0"
 try:
