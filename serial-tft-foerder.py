@@ -51,8 +51,13 @@ tft.screen_rotation(SerialTFT.Rotation.landscape)
 tft.bg_color(SerialTFT.Color.black)
 tft.clear_screen()
 
+# draw logos
+tft.draw_bitmap("0icon.bmp", 0, SerialTFT.Screen.height_half-27)
+tft.draw_bitmap("0icon.bmp", SerialTFT.Screen.width-32, SerialTFT.Screen.height_half-27)
+
 # write organization title
 tft.font_size(SerialTFT.Font.small)
+tft.bg_color(SerialTFT.Color.black)
 tft.fg_color(SerialTFT.Color.yellow)
 tft.goto_pixel(SerialTFT.Screen.width_half-51,5)
 tft.write("Abgeordnetenwatch")
